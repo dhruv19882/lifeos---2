@@ -1,16 +1,24 @@
 {
-  "name": "LifeOS: Goals, Money, Fitness & Gym Coach",
+  "name": "LifeOS: Personal Life Operating System",
   "short_name": "LifeOS",
-  "description": "Goals, to-dos, social media limits, INR budget, fitness tracker and gym coach in one app.",
+  "description": "Routine, fitness coach, Indian nutrition, US CMA study, career, work and money in one local-first app.",
+  "id": "./",
   "start_url": "./index.html#home",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#0b0d12",
-  "theme_color": "#0b0d12",
+  "background_color": "#0a0a0c",
+  "theme_color": "#0a0a0c",
+  "categories": ["productivity", "health", "finance", "education"],
   "icons": [
     { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
     { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ],
+  "shortcuts": [
+    { "name": "Add expense", "url": "./index.html#money", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Today's workout", "url": "./index.html#fitness", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Study", "url": "./index.html#study", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
   ]
 }

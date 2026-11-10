@@ -1,0 +1,6 @@
+# Personal data must never be committed
+js/profile.personal.js
+*.local.js
+lifeos-backup-*.json
+*.zip
+tools/out/
